@@ -12,7 +12,7 @@ body{
 
 /*--baner--*/
 .banner {
-	background:url(../images/chalkboard.jpg)no-repeat center 0px;
+	background:url(../images/crayons.jpg)no-repeat center 0px;
 	-webkit-background-size:cover;
 	background-size:cover;
 	-moz-background-size:cover;
@@ -29,7 +29,7 @@ body{
 }
 .header-right {
     padding-left: 3em;
-    background-color: rgba(0, 0, 0, 0.68);
+    background-color: rgba(14, 130, 116, 0.55);
 }
 .header-right h1 {
     font-size: 2.5em;
@@ -57,14 +57,16 @@ body{
 }
 .header-right h6 {
     font-size: 1em;
-    color: #C7C7C7;
+    color: #f4f5f7;
     margin-top: 0.8em;
     letter-spacing: 6px;
+    font-weight:;
 }
 
 .address-text {
     color: white;
 }
+
 
 ul.address {
     margin-top: 2em;
@@ -77,9 +79,9 @@ ul.address li {
 ul.address li ul.address-text li {
     display: inline-block;
     font-size: 1.2em;
-    color: #fff;
+    color: #f4f5f7;
     margin-top: 1em;
-    font-weight: 100;
+    font-weight: 500;
 }
 ul.address li ul.address-text li:nth-child(1){
     width: 20%;
@@ -93,7 +95,7 @@ ul.address li ul.address-text li a:hover{
 }
 .link-bar {
     height: 30px;
-    background-color: rgba(0, 0, 0, 0.68);
+    background-color: rgba(14, 130, 116, 0.55);
 }
 
 .links {
@@ -107,10 +109,21 @@ ul.address li ul.address-text li a:hover{
     padding-right: 1em;
 }
 .about-me {
-    background-color: rgb(70, 70, 70);
+    background-color: rgba(14, 130, 116, 0.80);
     color: white;
+    height: 100%;
+    padding: 30px;
 }
 h1 {
     margin: 0px;
     padding: 0px;
+}
+.border {
+    height: 100%;
+    background-color: rgb(237, 227, 236);
+    padding: 30px;
+}
+
+.about-me > p {
+    font-size: 20px;
 }
