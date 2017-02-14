@@ -6,7 +6,6 @@ html, body{
     overflow: scroll;
 }
 
-/*--baner--*/
 .banner {
 	background:url(../images/pencils.jpg)no-repeat center 0px;
 	-webkit-background-size:cover;
@@ -61,6 +60,7 @@ html, body{
 
 .address-text {
     color: white;
+    overflow: hidden;
 }
 
 
@@ -71,6 +71,7 @@ ul.address {
 }
 ul.address li {
     display: block;
+    min-width: 100px;
 }
 ul.address li ul.address-text li {
     display: inline-block;
